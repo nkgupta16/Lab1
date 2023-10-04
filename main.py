@@ -49,7 +49,7 @@ def generate_references(file_name):
 # Usages
 file_name = 'books-en.csv'
 print(f"Number of records: {count_records(file_name)}")
-print(f"Number of records with long Название: {count_long_names(file_name)}")
+print(f"Number of records with long Название(>30char): {count_long_names(file_name)}")
 generate_references(file_name)
 print("For Bibliographic References Check references.txt file\n")
 search_books(file_name)
